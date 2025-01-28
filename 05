@@ -1,0 +1,12 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Digite um caractere: ");
+        char caractere = Console.ReadKey().KeyChar;
+        Console.WriteLine();
+        Console.WriteLine($"Você digitou: {caractere}");
+    }
+}
