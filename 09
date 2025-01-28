@@ -1,0 +1,14 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Digite uma palavra: ");
+        string palavra = Console.ReadLine();
+
+        int comprimento = palavra.Length;
+
+        Console.WriteLine($"A palavra '{palavra}' tem {comprimento} caracteres.");
+    }
+}
